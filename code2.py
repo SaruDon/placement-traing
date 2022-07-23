@@ -1,0 +1,5 @@
+f = open('sample.txt', 'w')
+f.write("hello all\n")
+f = open('sample.txt', 'a')
+f.write("this will add the specific lineS")
+f.close()
